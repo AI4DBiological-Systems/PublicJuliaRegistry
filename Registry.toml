@@ -1,0 +1,6 @@
+name = "AI4DBiological-Systems-PublicJuliaRegistry"
+uuid = "287fd9f6-e71b-44bd-9898-1d753e6c9d99"
+repo = "https://github.com/AI4DBiological-Systems/PublicJuliaRegistry"
+description = "Public registry of Julia packages"
+
+[packages]
