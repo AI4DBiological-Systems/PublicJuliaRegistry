@@ -6,3 +6,4 @@ description = "Public registry of Julia packages"
 [packages]
 0437234d-b0b7-4786-9d16-5c3be1f5901d = { name = "ConvexClustering", path = "C/ConvexClustering" }
 4c44cab3-685a-4d4f-a3f2-2eeea13c7f9a = { name = "IntervalMonoFuncs", path = "I/IntervalMonoFuncs" }
+d73005cc-2eb2-45b3-9785-29d07aec07ac = { name = "NMRHamiltonian", path = "N/NMRHamiltonian" }
