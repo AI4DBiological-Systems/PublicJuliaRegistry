@@ -3,11 +3,17 @@ Public package registry for Julia packages that are developed by the National Re
 
 Automated via [LocalRegistry.jl](https://github.com/GunnarFarneback/LocalRegistry.jl)
 
-# To use a package in this registry
-If you want to use one of the packages in this registry, say `NMRHamiltonian`, do:
+# To connect this registry with your Julia installation
+The following line connects this registry along with (re-adding just to be safe) the `General` (i.e. the default public) julia registry to your Julia installation. This only needs to be run once for every Julia installation.
 ```
 using Pkg
 pkg"registry add General https://github.com/AI4DBiological-Systems/PublicJuliaRegistry"
+```
+
+# To install a package from this registry
+Make sure this registry is connected to your Julia installation. Then do the typical package installation as if you are installing a package from the main Julia registry. For example, to install `NMRHamiltonian`, do
+```
+using Pkg
 pkg"add NMRHamiltonian"
 ```
 
