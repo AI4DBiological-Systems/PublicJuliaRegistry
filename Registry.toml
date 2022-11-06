@@ -4,8 +4,5 @@ repo = "https://github.com/AI4DBiological-Systems/PublicJuliaRegistry"
 description = "Public registry of Julia packages"
 
 [packages]
-0437234d-b0b7-4786-9d16-5c3be1f5901d = { name = "ConvexClustering", path = "C/ConvexClustering" }
 2c6f6ba7-1a3c-4d31-8511-d336c09a6ae6 = { name = "NMRSpecifyRegions", path = "N/NMRSpecifyRegions" }
 4c44cab3-685a-4d4f-a3f2-2eeea13c7f9a = { name = "IntervalMonoFuncs", path = "I/IntervalMonoFuncs" }
-5a515ddf-a3f2-4a7d-82cc-71ac3f3f244b = { name = "NMRSignalSimulator", path = "N/NMRSignalSimulator" }
-d73005cc-2eb2-45b3-9785-29d07aec07ac = { name = "NMRHamiltonian", path = "N/NMRHamiltonian" }
