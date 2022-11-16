@@ -5,9 +5,17 @@ Automated via [LocalRegistry.jl](https://github.com/GunnarFarneback/LocalRegistr
 
 # To connect this registry with your Julia installation
 The following line connects this registry along with (re-adding just to be safe) the `General` (i.e. the default public) julia registry to your Julia installation. This only needs to be run once for every Julia installation.
+
+HTTPS:
 ```
 using Pkg
 pkg"registry add General https://github.com/AI4DBiological-Systems/PublicJuliaRegistry"
+```
+
+SSH (use this if you have write access to this registry):
+```
+using Pkg
+pkg"registry add git@github.com:AI4DBiological-Systems/PublicJuliaRegistry.git"
 ```
 
 # To install a package from this registry
