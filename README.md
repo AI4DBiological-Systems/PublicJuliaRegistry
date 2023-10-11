@@ -29,7 +29,7 @@ pkg"add NMRHamiltonian"
 For an informal disucssion on how this registry was set up and maintained, see [https://github.com/RoyCCWang/RWPublicJuliaRegistry](https://github.com/RoyCCWang/RWPublicJuliaRegistry).
 
 # Troubleshoot
-## Git push eror
+## Git push error
 If you see 
 ```
  ! [rejected]        main -> main (fetch first)
