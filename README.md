@@ -12,7 +12,7 @@ using Pkg
 pkg"registry add General https://github.com/AI4DBiological-Systems/PublicJuliaRegistry"
 ```
 
-SSH (use this if you have write access to this registry):
+SSH:
 ```
 using Pkg
 pkg"registry add git@github.com:AI4DBiological-Systems/PublicJuliaRegistry.git"
@@ -29,6 +29,7 @@ pkg"add NMRHamiltonian"
 For an informal disucssion on how this registry was set up and maintained, see [https://github.com/RoyCCWang/RWPublicJuliaRegistry](https://github.com/RoyCCWang/RWPublicJuliaRegistry).
 
 # Troubleshoot
+## Git push eror
 If you see 
 ```
  ! [rejected]        main -> main (fetch first)
@@ -44,3 +45,13 @@ while registering/updating a package, it could mean your Julia installation has 
 import Pkg
 Pkg.Registry.update()
 ```
+
+## Rebase error
+If you see error messages along the lines of 
+```
+ Error: Some registries failed to update:
+│     — (home_folder_path)\.julia\registries\AI4DBiological-Systems-PublicJuliaRegistry — registry failed to rebase on origin/main
+```
+where `(home_folder_path)\.julia` is where your Julia settings and packages are stored. On Windows, the `.julia` folder is typically found at `C:\Users\(user_name)\` where `(user_name)` is the user name for the Windows account. On Linux, it is usually in the `home` folder.
+
+Delete your `.julia\registries\AI4DBiological-Systems-PublicJuliaRegistr` folder, then add this registry again as per instructed in the section *To connect this registry with your Julia installation* of this README.
