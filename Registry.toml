@@ -10,4 +10,3 @@ description = "Public registry of Julia packages"
 5a515ddf-a3f2-4a7d-82cc-71ac3f3f244b = { name = "NMRSignalSimulator", path = "N/NMRSignalSimulator" }
 d73005cc-2eb2-45b3-9785-29d07aec07ac = { name = "NMRHamiltonian", path = "N/NMRHamiltonian" }
 ebb73dff-5abd-42b1-a10e-869024f50034 = { name = "NMRDataSetup", path = "N/NMRDataSetup" }
-f8439c9b-f421-4171-88a6-2fea72ebf919 = { name = "SingleLinkagePartitions", path = "S/SingleLinkagePartitions" }
