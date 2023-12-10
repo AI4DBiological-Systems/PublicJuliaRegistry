@@ -10,3 +10,7 @@ Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
 
 ["0.5-0"]
 SingleLinkagePartitions = "f8439c9b-f421-4171-88a6-2fea72ebf919"
+
+["0.7-0"]
+Serialization = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
