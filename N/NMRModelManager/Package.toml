@@ -1,0 +1,3 @@
+name = "NMRModelManager"
+uuid = "a22e58ba-bfe9-4b23-8243-f95bbc5f8cc0"
+repo = "https://github.com/AI4DBiological-Systems/NMRModelManager.jl"
